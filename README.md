@@ -1,15 +1,15 @@
 # example-apps
 
-Repository of example app in various platform to demo finverse-link integration
+Repository of Example Apps on various platforms to demonstrate how to integrate Finverse's Link UI (finversel-link).
 
-# Supported platform
+# Supported platforms
 
 ## React Native
 
-- The example app is created using expo managed mode, bare react native app should also work if using the same library.
-- Currently the app only demo how to use finverse-link in WebView, using finverse-link in a In-App browser might not work
+- The example app is created using Expo managed mode, bare React Native app should also work if using the same library.
+- Currently the app only demonstrates how to integrate finverse-link as a WebView; using finverse-link in an in-app browser might not work.
 
-## Native android
+## Native Android
 
 - The example app is created using Jetpack compose with Kotlin.
-- Currently the app only demo how to use finverse-link in WebView, using finverse-link in a In-App browser might not work
+- Currently the app only demonstrates how to use finverse-link as a WebView; using finverse-link as an in-app browser might not work.
