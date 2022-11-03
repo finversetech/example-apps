@@ -1,6 +1,6 @@
 # example-apps
 
-Repository of Example Apps on various platforms to demonstrate how to integrate Finverse's Link UI (finversel-link).
+Repository of example apps on various platforms to demonstrate how to integrate Finverse's Link UI (finversel-link).
 
 # Supported platforms
 
