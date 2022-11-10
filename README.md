@@ -17,4 +17,4 @@ Repository of example apps on various platforms to demonstrate how to integrate 
 ## IOS Native
 
 - The example app is created using Xcode with Swift.
-- Currently the app only dempstrates how to use finverse-link as a WebView; using finverse-link as an in-app browser might not work.
+- Currently the app only demonstrates how to use finverse-link as a WebView; using finverse-link as an in-app browser might not work.

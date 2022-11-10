@@ -14,7 +14,7 @@ This is the repository of a native application integrated with finverse-link. Th
 Currently finverse link only support WebView on mobile platform and information are communicated by `windows.postMessage`. It will emit messages depends on the linking result;
 
 1. Success, it will emit a `success` string message.
-2. Failure, it will emit a `failure` string message.
+2. Failure, it will emit a `close` string message.
 
 To receive the message, you need to hoist the message into your app. The implementation may vary depending on your WebView driver. In this app, we use android API's [WebView driver](https://developer.chrome.com/docs/multidevice/webview/) as our WebView component and we inject a javascript function to hoist web message to native side.
 
