@@ -15,7 +15,7 @@ This is the repository of a expo react native application integrated with finver
 Currently finverse link only support WebView on mobile platform and informations are communicated by `windows.postMessage`. It will emit messages depends on the linking result;
 
 1. Success, it will emit a `success` message.
-2. Failure, it will emit a `failure` message.
+2. Failure, it will emit a `close` message.
 
 To receive the message, you need to hoist the message into your app. The implementation may vary depending on your WebView driver. In this app, we use library `react-native-webview` as our WebView component and we inject a javascript function to hoist it.
 
